@@ -1,0 +1,307 @@
+/* Existing styles (unchanged) */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  background-color: #333;
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.menu a.active {
+  font-weight: bold;
+  border-bottom: 2px solid white;
+}
+
+.layout {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+main {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.intro {
+  text-align: center;
+}
+
+.sets {
+  padding: 20px;
+}
+
+.sets-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.set-tile {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.set-tile img {
+  max-width: 100%;
+  height: auto;
+}
+
+.set-tile h3 {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.set-tile a {
+  display: block;
+  margin: 5px 0;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.set-tile a:hover {
+  text-decoration: underline;
+}
+
+.parts {
+  padding: 20px;
+}
+
+.parts-actions {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.parts-actions button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.parts-actions button:hover {
+  background-color: #0056b3;
+}
+
+.parts-actions button:active {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.parts-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.parts-table th,
+.parts-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+.parts-table th {
+  background-color: #f0f0f0;
+}
+
+.parts-table td img {
+  display: block;
+  margin: 0 auto;
+}
+
+.parts-table button {
+  margin: 0 5px;
+  padding: 2px 8px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.parts-table button:hover {
+  background-color: #0056b3;
+}
+
+.total-value {
+  font-weight: bold;
+  text-align: right;
+  font-size: 16px;
+}
+
+.help {
+  padding: 20px;
+}
+
+.split-screen {
+  display: flex;
+  width: 100%;
+  min-height: 400px;
+  gap: 20px;
+}
+
+.split-screen.left-right {
+  flex-direction: row;
+}
+
+.split-screen.top-bottom {
+  flex-direction: column;
+}
+
+.split-panel {
+  padding: 15px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.split-panel.left {
+  margin-right: 0;
+}
+
+.split-panel.right {
+  margin-left: 0;
+}
+
+.faq-section h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.faq-item {
+  margin-bottom: 15px;
+}
+
+.faq-item p {
+  margin: 5px 0;
+}
+
+.functional-info h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.functional-info h4 {
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.functional-info p {
+  margin: 5px 0;
+}
+
+.functional-info form {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group label strong {
+  display: block;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.form-group textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.functional-info button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.functional-info button:hover {
+  background-color: #0056b3;
+}
+
+.functional-info button:active {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.success-message {
+  color: #28a745;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* New style for error message */
+.error-message {
+  color: #dc3545;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.layout-actions {
+  margin-bottom: 20px;
+}
+
+.layout-actions button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.layout-actions button:hover {
+  background-color: #0056b3;
+}
+
+.layout-actions button:active {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}

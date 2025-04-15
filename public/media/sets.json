@@ -1,0 +1,37 @@
+[
+    {
+      "id": "6594",
+      "name": "Set 6594",
+      "image": "",
+      "partsCsv": "",
+      "instructions": "/media/6594_instruction.pdf"
+    },
+    {
+      "id": "6592",
+      "name": "Set 6592",
+      "image": "",
+      "partsCsv": "",
+      "instructions": "/media/6592_instruction.pdf"
+    },
+    {
+      "id": "6259",
+      "name": "Set 6259",
+      "image": "/media/6259_preview.jpg",
+      "partsCsv": "",
+      "instructions": ""
+    },
+    {
+      "id": "6277",
+      "name": "Set 6277",
+      "image": "/media/6277_preview.png",
+      "partsCsv": "",
+      "instructions": ""
+    },
+    {
+      "id": "6541",
+      "name": "Set 6541",
+      "image": "/media/6541_preview.jpg",
+      "partsCsv": "/media/6541_parts.csv",
+      "instructions": ""
+    }
+  ]
