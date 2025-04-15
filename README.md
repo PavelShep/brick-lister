@@ -52,7 +52,7 @@ brick-lister/
 
 ### 1. Repository Setup
 ```bash
-git clone <repository-url>
+git clone https://github.com/PavelShep/brick-lister
 cd brick-lister
 ```
 
@@ -89,6 +89,7 @@ node index.js
 
 **Frontend Development Server:**
 ```bash
+cd ..
 npm run dev
 ```
 *Accessible at: http://localhost:5173*
@@ -112,14 +113,6 @@ npm run dev
 - MySQL connection failures: Verify credentials and permissions
 - CORS errors: Ensure backend allows frontend origin
 - Form submission problems: Check server logs and database permissions
-
-## Roadmap
-
-### Planned Enhancements
-- Enhanced PDF reports with images
-- Dynamic split-screen ratio adjustment
-- User authentication system
-- Cloud deployment configuration
 
 ## Technology Stack
 
