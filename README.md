@@ -58,7 +58,7 @@ cd brick-lister
 
 ### 2. Backend Configuration
 
-**Environment Configuration (file server/.env):**
+**Create file .env (path: server/.env) and copy your data base config:**
 ```env
 DB_HOST=localhost
 DB_USER=user
